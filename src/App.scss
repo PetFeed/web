@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.App {
+    overflow: hidden;
+    position: relative;
+    width: 1920px;
+    height: 100%;
+
+    & > img {
+        width: 164px;
+        height: 34px;
+        top: 64px;
+        left: 100px;
+        position: absolute;
+    }
+
+    & > div.main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > div.left-el {
+            display: flex;
+            flex-direction: column;
+
+            & > span:nth-child(1) {
+                width: 458px;
+                height: 83px;
+                font-family: "Noto Sans Kr";
+                font-size: 56px;
+                font-weight: 900;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #442d26;
+            }
+
+            & > span:nth-child(2) {
+                width: 497px;
+                height: 123px;
+                font-family: "Noto Sans Kr";
+                font-size: 28px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #202020;
+                margin: 39px 0 51px 0;
+            }
+
+            & > div {
+                display: flex;
+
+                & > span {
+                    display: flex;
+                    width: 210px;
+                    height: 62px;
+                    border-radius: 8px;
+                    border: solid 1px #442d26;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 20px;
+
+                    & > img {
+                        margin-right: 10px;
+                    }
+
+                    & > span {
+                        font-family: NotoSansCJKkr;
+                        font-size: 18px;
+                        font-weight: 300;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #202020;
+                    }
+                }
+            }
+        }
+    }
+
+    .clipping {
+        -webkit-clip-path: url(#svgPath);
+        clip-path: url(#svgPath);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(0);
+    }
+}
+
+@media (max-wdith: 1920px) {
+    .App {
+        width: 100%;
+    }
+}

@@ -25,7 +25,7 @@ class App extends React.Component {
                             </span>
                             <span>
                                 <img src="images/ic-ios.svg" alt="" />
-                                <span>IOS 다운로드</span>
+                                <span>iOS 다운로드</span>
                             </span>
                         </div>
                     </div>

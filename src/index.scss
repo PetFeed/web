@@ -9,6 +9,21 @@ body {
     overflow: hidden;
     height: 100%;
 }
+
 html {
     height: 100%;
+    font-size: 26px;
+    @media screen and(max-width: 1920px) {
+        font-size: 20px;
+    }
+
+    @media screen and(max-width: 1024px) {
+        font-size: 15px;
+    }
+}
+
+#root {
+    @media screen and (max-width: 1920px) {
+        width: 100%;
+    }
 }

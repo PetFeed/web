@@ -31,11 +31,11 @@ class App extends React.Component {
                     </div>
                     <div className="right-el">
                         <img className="clipping" src="images/main.png" />
-                        <svg width="663px" height="928px">
+                        <svg>
                             <defs>
                                 <clipPath
                                     id="svgPath"
-                                    transform="translate(997, 152)"
+                                    transform="translate(897, 152)"
                                 >
                                     <path
                                         id="a"

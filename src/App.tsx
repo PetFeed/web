@@ -47,7 +47,7 @@ class App extends React.Component<{}, AppState> {
                                 있으신가요? 그렇다면 반려동물의 이야기
                                 <br /> 세계로 당신을 초대합니다.
                             </span>
-                            <div>PetFeed 다운로드</div>
+                            <div onClick={() => {window.location.href = "https://play.google.com/store/apps/details?id=com.petfeed.petfeed"}}>PetFeed 다운로드</div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ class App extends React.Component<{}, AppState> {
                                 세계로 당신을 초대합니다.
                             </span>
                             <div>
-                                <span>
+                                <span onClick={() => {window.location.href = "https://play.google.com/store/apps/details?id=com.petfeed.petfeed"}}>
                                     <img src="images/ic-android.svg" alt="" />
                                     <span>Android 다운로드</span>
                                 </span>
